@@ -16,7 +16,7 @@
 
 }
 .bg-img{
-   background-image: url('D:\trogen\spoken-english\public\bg-vector.jpg');
+   background-image: url('public\bg-vector.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
