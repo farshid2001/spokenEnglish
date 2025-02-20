@@ -1,6 +1,6 @@
 .progress-container {
 
-  /* background-color: #6b21a8; */
+  background-color: #6b21a8;
   min-height: 94.5vh;
   padding: 20px;
   display: flex;
@@ -15,14 +15,14 @@
   height: 100vh; */
 
 }
-.bg-img{
+/* .bg-img{
    background-image: url('public\bg-vector.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh; 
   opacity: 0.8;
-}
+} */
 
 
 .progress-title {
