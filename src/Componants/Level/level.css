@@ -1,0 +1,124 @@
+.level-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e9a5ff, #f7e7ff);
+    min-height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .back-button {
+    width: 35px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .level-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .level-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .steps-container {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* background-color: white; */
+    border-radius: 12px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .step-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8e24aa;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+  /* .vertical-line {
+    width: 2px;
+    height: 40px;
+    background-color: #8e24aa;
+    margin-top: 5px;
+  } */
+  
+  .step-content {
+    flex-grow: 1;
+  }
+  
+  .step-title {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .step-description {
+    margin: 5px 0 0 0;
+  }
+  
+  .right-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .continue-button {
+    margin-top: 50px;
+    padding: 12px 88px;
+    font-size: 16px;
+    color: white;
+    background-color: #8e24aa;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+    font-weight: bold;
+  }
+  .step-list-vertical-lines{
+    position: absolute;
+    left: 38px;
+    top: -14px;
+    transform: translateY(-16px);
+    width: 0px;
+    border-left: 2px solid #8e24aa;
+    height: 63px;
+    z-index: 0;
+  }
